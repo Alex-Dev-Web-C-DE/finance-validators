@@ -1,0 +1,7 @@
+Push-Location "C:\Users\Чорний\finance-validators"
+git rm -r --cached node_modules
+git rm -r --cached .wrangler
+git add .gitignore
+git commit -m "Remove node_modules from git, add .gitignore"
+git push origin master
+Pop-Location
